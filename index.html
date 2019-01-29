@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Website-TASTY-2019-Pure CSS</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+  <section id="main">
+  
+   <!-- Header -->  
+   <!-- Navigation -->
+    <header>
+      <div class="nav-container">
+          <nav class="nav-checkbox">
+              <a href="#" class="nav-logo">TASTY</a>
+              <input type="checkbox" id="tab-nav" class="tab-nav">
+              <label for="tab-nav" class="tab-nav-label">Menu</label>
+              <ul class="tab-content">
+                  <li><a href="#our-menu">Our Menu</a></li>
+                  <li><a href="#specialties">Specialties</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>  
+    
+    <!-- section images-slider -->
+    <section id="images-slider">
+   
+        <div class="slides">
+            
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <div class="slide-container">
+                <div class="slide">
+                    <img src="https://picsum.photos/1920/600/?image=835"/>
+                </div>
+                <h1 class="slide-h1">Tasty and Delicious Food</h1>
+                <div class="nav">
+                   <label for="img-3" class="prev"><i class="fas fa-chevron-circle-left fa-3x"></i></label>
+			       <label for="img-2" class="next"><i class="fas fa-chevron-circle-right fa-3x"></i></label>
+                </div>
+            </div>
+            
+            <input type="radio" name="radio-btn" id="img-2" checked />
+            <div class="slide-container">
+                <div class="slide">
+                    <img src="https://picsum.photos/1920/600/?image=1080"/>
+                </div>
+                <h1 class="slide-h1">Tasty and Delicious Food</h1>
+                <div class="nav">
+                   <label for="img-1" class="prev"><i class="fas fa-chevron-circle-left fa-3x"></i></label>
+			       <label for="img-3" class="next"><i class="fas fa-chevron-circle-right fa-3x"></i></label>
+                </div>
+            </div>
+            
+            <input type="radio" name="radio-btn" id="img-3" checked />
+            <div class="slide-container">
+                <div class="slide">
+                    <img src="https://picsum.photos/1920/600/?image=102"/>
+                </div>
+                <h1 class="slide-h1">Tasty and Delicious Food</h1>
+                <div class="nav">
+                   <label for="img-2" class="prev"><i class="fas fa-chevron-circle-left fa-3x"></i></label>
+			       <label for="img-1" class="next"><i class="fas fa-chevron-circle-right fa-3x"></i></label>
+                </div>
+            </div>
+            
+               <div class="nav-dots">
+                  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+              </div>
+        </div>
+   
+    </section>
+    
+    <!-- section reservation -->
+    <section id="reservation">
+        <form class="form-reservation">
+            <input type="text" id="r-name" placeholder="Name">
+            <input type="tel" id="r-phone" placeholder="Phone">
+            <input type="email" id="r-email" placeholder="Email">
+            <input type="date" id="r-date" placeholder="M/D/YYY">
+            <select id="r-time">
+                <option value="Time">Time</option>
+                <option value="10:00am">10:00am</option>
+                <option value="11:00am">11:00am</option>
+                <option value="12:00pm">12:00pm</option>
+                <option value="1:00pm">1:00pm</option>
+                <option value="2:00pm">2:00pm</option>
+                <option value="3:00pm">3:00pm</option>
+                <option value="4:00pm">4:00pm</option>
+                <option value="5:00pm">5:00pm</option>
+                <option value="6:00pm">6:00pm</option>
+                <option value="7:00pm">7:00pm</option>
+                <option value="8:00pm">8:00pm</option>
+                <option value="9:00pm">9:00pm</option>
+            </select>
+            <select id="r-person">
+                <option value="Person">Person</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4+">4+</option>
+            </select>
+            <button type="submit" id="r-btn-submit"><b>Book a Table</b></button>
+        </form>
+    </section> 
+    
+    <!-- section our menu -->
+    <section id="our-menu">
+       <h1 class="h1-menu">Our Menu</h1>
+        <div class="our-menu-all">
+        
+              <input type="radio" name="radio-menu" id="menu-main" checked />
+              <div class="our-menu">
+               <div class="our-menu-container">
+                 <div class="left-menu">
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                 </div>
+                 <div class="right-menu">
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=835">
+                        <h3>Grilled Beef with potatoes</h3> 
+                        <h1 class="price">$20</h1>
+                     </div>
+                 </div>
+               </div>
+              </div>
+              
+              <input type="radio" name="radio-menu" id="menu-dessert" checked />
+              <div class="our-menu">
+               <div class="our-menu-container">
+                 <div class="left-menu">
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3> 
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3>  
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3>  
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3>  
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3> 
+                        <h1 class="price">$10</h1>
+                     </div>
+                 </div>
+                 <div class="right-menu">
+                     <div class="right-menu-container">
+                     <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3>  
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="right-menu-container">
+                       <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3> 
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3> 
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3>  
+                        <h1 class="price">$10</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=1080">
+                        <h3>Chocolate Cream</h3>  
+                        <h1 class="price">$10</h1>
+                     </div>
+                 </div>
+               </div>
+              </div>
+              
+              <input type="radio" name="radio-menu" id="menu-drinks" checked />
+              <div class="our-menu">
+               <div class="our-menu-container">
+                 <div class="left-menu">
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3>  
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3>
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="left-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                 </div>
+                 <div class="right-menu">
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                     <div class="right-menu-container">
+                        <img src="https://picsum.photos/70/70/?image=312">
+                        <h3>Strawberry Juice</h3> 
+                        <h1 class="price">$5</h1>
+                     </div>
+                 </div>
+               </div>
+              </div>
+              
+                 <div class="a-menu">
+                    <label for="menu-main" class="a-menu-label" id="a-menu-main">Main</label>
+                    <label for="menu-dessert" class="a-menu-label" id="a-menu-dessert">Dessert</label>
+                    <label for="menu-drinks" class="a-menu-label" id="a-menu-drinks">Drinks</label>
+                 </div>
+             
+         </div>   
+    </section>
+    
+    <!-- div img-fixed -->
+    <div class="img-fixed">
+      <h1 class="h1-specialties">Our Specialties</h1>
+    </div>
+    
+    <!-- section specialties -->
+    <section id="specialties">
+       <div class="our-specialties-all">
+       <div class="our-specialties">
+           <div class="our-specialties-container">
+            <div class="text">
+              <h1>Beef Steak</h1>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+              <h3>FROM $10.00</h3>
+            </div>
+            <img class="img-our-specialties" src="https://picsum.photos/768/768/?image=835">
+           </div> 
+           <div class="our-specialties-container">
+            <div class="text">
+              <h1>Beef Steak</h1>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+              <h3>FROM $10.00</h3>
+            </div>
+            <img class="img-our-specialties" src="https://picsum.photos/768/768/?image=835">
+           </div> 
+        </div>
+        <div class="our-specialties">
+           <div class="our-specialties-container">
+            <div class="text">
+              <h1>Beef Steak</h1>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+              <h3>FROM $10.00</h3>
+            </div>
+            <img class="img-our-specialties" src="https://picsum.photos/768/768/?image=835">
+           </div> 
+           <div class="our-specialties-container">
+            <div class="text">
+              <h1>Beef Steak</h1>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+              <h3>FROM $10.00</h3>
+            </div>
+            <img class="img-our-specialties" src="https://picsum.photos/768/768/?image=835">
+           </div> 
+        </div>
+       </div>
+    </section>
+    
+    <!-- section GUESTS SAYS -->
+    <section id="guests-says">
+        <h1>Our Satisfied Guests Says</h1>
+        <div class="guests-says-slider-container">
+            <div class="guests-says-slider">
+                <div class="guests-says-slider-iner">
+                    <img src="https://picsum.photos/100/100/?image=996">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                    <h2>Jesica Hart</h2>
+                    <h4>Guests From United States</h4>
+                </div>
+                <div class="guests-says-slider-iner">
+                    <img src="https://picsum.photos/100/100/?image=996">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                    <h2>Jesica Hart</h2>
+                    <h4>Guests From United States</h4>
+                </div>
+                <div class="guests-says-slider-iner">
+                    <img src="https://picsum.photos/100/100/?image=996">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                    <h2>Jesica Hart</h2>
+                    <h4>Guests From United States</h4>
+                </div>
+                <div class="guests-says-slider-iner">
+                    <img src="https://picsum.photos/100/100/?image=996">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                    <h2>Jesica Hart</h2>
+                    <h4>Guests From United States</h4>
+                </div>
+                <div class="guests-says-slider-iner">
+                    <img src="https://picsum.photos/100/100/?image=996">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                    <h2>Jesica Hart</h2>
+                    <h4>Guests From United States</h4>
+                </div>
+                <div class="guests-says-slider-iner">
+                    <img src="https://picsum.photos/100/100/?image=996">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, vitae dolor. Provident delectus, soluta dolores repudiandae. Maxime odit magni nostrum.</p>
+                    <h2>Jesica Hart</h2>
+                    <h4>Guests From United States</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h1>About Us</h1>
+        <div class="about-us">
+            <div class="img-about-us"> 
+                <h1>John Smith</h1>
+                <p>Head Chef</p>         
+                <img src="https://picsum.photos/300/300/?image=856">
+            </div>  
+            <div class="about-us-inner">
+                <h1>Our chef cooks the most delicious food for you</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus esse, enim debitis laboriosam ab? Eos animi necessitatibus velit dolorem accusantium, cum laudantium, dolorum at, dolore amet in. A rerum odit earum, error assumenda soluta, ullam ipsa autem totam recusandae expedita impedit nisi. Veritatis recusandae molestias adipisci aliquam sed, reprehenderit debitis eligendi quisquam libero quos omnis sapiente, sint ullam eveniet saepe quaerat! Nemo dolorum recusandae, soluta ipsam dicta quos deleniti quidem vel veritatis delectus cupiditate, distinctio inventore id eaque aliquam, eum doloribus, obcaecati iure numquam incidunt laborum alias distinctio inventore id eaque aliquam, eum doloribus, obcaecati iure numquam incidunt laborum alias obcaecati iure numquam incidunt laborum alias inventore id eaque aliquam, eum doloribus, obcaecati iure numquam incidunt laborum alias  obcaecati iure numquam incidunt laborum alias.</p>
+            </div>
+            <div class="about-us-info">
+                <h1>Francis Maestro</h1>
+                <p>Assistant Chef</p>
+                <img  src="https://picsum.photos/300/300/?image=856">
+            </div>
+            <div class="about-us-info">
+                <h1>Francis Maestro</h1>
+                <p>Assistant Chef</p>
+                <img  src="https://picsum.photos/300/300/?image=856">
+            </div>
+        </div>
+    </section>
+   
+    <!-- section contact -->
+    <section id="contact">
+       <h1>Contact Us</h1>
+        <div class="contact">
+            <div class="contact-information">
+              <h1>Contact Information</h1>
+               <h4>Address: <span>333 West 21th Street, Suite 721 New York NY 10016</span></h4>
+               <h4>Phone: <span>+ 1235 3333 33</span></h4>
+               <h4>Email: <span>info@yoursite.com</span></h4>
+               <h4>Website: <span>yoursite.com</span></h4>
+            </div>
+            <form class="contact-form">
+                <input type="text" id="your-name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <textarea type="text" id="message" placeholder="Message" rows="4"></textarea>
+                <button type="submit" id="btn-contact-form"><span>Send Message</span></button>
+            </form>
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830962086!2d-74.11976348216282!3d40.69766374842546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2smk!4v1547660265534" width="1240" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section> 
+    
+    <!-- section instagram -->
+    <section id="instagram">
+      <h1 class="h1-instagram">INSTAGRAM</h1>
+       <div class="instagram">
+        <img  src="https://picsum.photos/300/300/?image=835">
+        <img  src="https://picsum.photos/300/300/?image=1080">
+        <img  src="https://picsum.photos/300/300/?image=102">
+        <img  src="https://picsum.photos/300/300/?image=835">
+        <img  src="https://picsum.photos/300/300/?image=1080">
+        <img  src="https://picsum.photos/300/300/?image=102">
+       </div>
+    </section>
+    
+    <!-- section footer -->
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-a">
+                <h1 class="h1-footer">Tasty</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nobis quidem incidunt nostrum porro dolor, ab fuga similique, at minus.</p>
+            </div>
+            <div class="fooer-b">
+                <h1 class="h1-footer">Opening Hours</h1>
+                <p>Monday: 08: - 22:00</p>
+                <p>Tuesday: 08: - 22:00</p>
+                <p>Wednesday: 08: - 22:00</p>
+                <p>Thursday: 08: - 22:00</p>
+                <p>Friday: 08: - 22:00</p>
+                <p>Saturday: 08: - 22:00</p>
+                <p>Sunday: 08: - 22:00</p>
+            </div>
+            <div class="footer-c">
+                <a href="" class="social"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="" class="social"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="" class="social"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" class="back-to-top"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+            </div>
+        </div>
+        <p class="p-copyright">Copyright 2019&copy; All rights reserved - Design & Developed by <a href="" class="link-copyright">Gjoko Bulovski</a></p>
+    </footer>
+</section> 
+</body>
+</html>
