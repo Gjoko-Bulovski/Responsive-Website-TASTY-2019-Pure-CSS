@@ -268,7 +268,9 @@ input#img-3:checked ~ .nav-dots label#img-dot-3
 }
 .our-menu-all {
     width: 1280px;
-    display: block;
+    display: grid;
+    align-items: center;
+    justify-items: center;
     position: relative;
     margin: auto;
     padding: 20px;
@@ -291,10 +293,8 @@ input#img-3:checked ~ .nav-dots label#img-dot-3
     padding: 0;
 }
 .a-menu {
-    width: 100%;
-    text-align: center;
-    top: -10px;
     position: absolute;
+    top: -10px;
 }
 .a-menu-label {
     background: #fff;
